@@ -89,7 +89,9 @@ def solution(Progresses, Speeds):
 ```
 ## Feedback
 ---
-
+### Eros 
+- 이 문제에서 여러번 사용될 계산을  `Calu()` 함수로 따로 만들었는데 아주 효율적임
+- 그리고 마지막으로 stack을 전부다 비우는 것도 정석
 
 
 ---
