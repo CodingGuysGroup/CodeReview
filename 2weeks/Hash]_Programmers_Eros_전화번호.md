@@ -97,3 +97,10 @@ def solution(phoneBook):
             return False
     return True
 ```
+
+### Feedback
+---
+#### 상우
+1. find 함수를 잘 사용하여 간단하게 구현한 것이 인상적이나 find함수는 리스트에서 O(N)의 시간복잡도를 갖기 때문에 worst case 경우 O(N^3)의 시간복잡도를 갖을 수 있을 것으로 보임
+2. zip,startswith 함수를 이용하여 for문을 하나로 처리하고 효율성을 높인 것이 인상적임
+
