@@ -90,6 +90,10 @@ for i in ans:
 
 ### Feedback
 ---
+#### 수빈
+1. input=sys.stdin.readline을 사용하여 성능을 높인 결과를 낸 것이 인상적 아래는 input()과 input=sys.stdin.readline()의 차이점을 구글링해온 것이다.
 
+input()은 문자열 변환, 줄 바꿈 제거 등 추가적인 과정이 있고, 데이터가 하나 씩 버퍼에 들어가는 반면 sys.stdin.readline()은 문자열로 변환, 줄 바꿈 과정이 없으며 데이터가 한 번에 버퍼에 들어가므로 sys.stdin.readline()이 input() 보다 빠르다.
 
 ---
+#### 이름
