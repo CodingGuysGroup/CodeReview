@@ -78,7 +78,7 @@ while left < right:
  
 먼저 left과 right에 대하여 mid를 구함 
 
-그리고 'mid[2]'와 mid에서 k만큼의 범위 바로 'mid+k[4]' 중에 무엇이 더 x[5]에 가까운지를 비교하는 알고리즘이 바로 while문의 문
+그리고 'mid[2]'와 mid에서 k만큼의 범위 우측의 'mid+k[4]' 중에 무엇이 더 x[5]에 가까운지를 비교하는 알고리즘이 바로 while문의 if문
 
 <img width="279" alt="image" src="https://user-images.githubusercontent.com/84978165/230083493-b33a4164-a11c-41e5-9984-139950e50396.png">
 
