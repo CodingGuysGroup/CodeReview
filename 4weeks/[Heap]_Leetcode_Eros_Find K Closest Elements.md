@@ -83,7 +83,9 @@ while left < right:
 <img width="279" alt="image" src="https://user-images.githubusercontent.com/84978165/230083493-b33a4164-a11c-41e5-9984-139950e50396.png">
 
 
-그 다음 x에 mid를 뺀 값과 mid+k에 x를 뺀 값을 비교(이해가 되지 않는다)
+그 다음 x에 mid를 뺀 값과 mid+k에 x를 뺀 값을 비교
+
+공부중..(너무 어렵다)
 
 
 
