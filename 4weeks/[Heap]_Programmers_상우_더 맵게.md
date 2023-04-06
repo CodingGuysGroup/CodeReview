@@ -66,7 +66,37 @@ def solution(scoville, K):
 
 ### Feedback
 ---
-#### 이름
+#### 수빈
+
+내 작성코드
+```
+   while hq[0] < K: # 길이가 1이면
+        if len(hq) == 1:
+            return -1
+        
+        first = heapq.heappop(hq)
+        second = heapq.heappop(hq)
+
+        heapq.heappush(hq, first+second*2)
+        count += 1
+```
+좌오 형 작성코드
+```
+ while heap[0] < K:  # 가장 작은 스코빌 지수가 K보다 작을 경우 반복
+        # 가장 작은 스코빌 지수 두 개를 꺼내서 섞은 음식의 스코빌 지수 계산
+        mixed_scoville = heapq.heappop(heap) + heapq.heappop(heap) * 2
+        heapq.heappush(heap, mixed_scoville)  # 섞은 음식의 스코빌 지수를 힙(heap)에 삽입
+        cnt += 1  # 섞은 횟수(count) 증가
+
+        # 모든 음식을 섞어도 스코빌 지수가 K 이상이 되지 않으면 -1을 반환하고 종료
+        if len(heap) == 1 and heap[0] < K:
+            return -1
+```
+
+나와 좌오형의 반복문을 빠져나오는 조건 또한 거짓이면 while을 빠져나오는 조건이므로 상우형의 if scoville[0]>=K: break과 다를게 없다.
+
+이번 문제는 제시되어있는 입력값이나 문제 설명이 명확했으므로 세명의 알고리즘에 공통된 부분이 많은 것을 확인할 수 있었다.
+
 
 ---
 #### 이름
