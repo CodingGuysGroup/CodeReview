@@ -25,7 +25,15 @@ def solution(numbers):
 
 ## Feedback
 ---
-### 이름
+### 수빈
+
+1. 사전형 비교를 람다를 쓰지 않고 파이썬 함수 cmp_to_key를 쓴 점이 독특하다.
+
+*구글링 후 찾은 cmp_to_key
+
+cmp_to_key()란 sort()나 sorted()를 사용할 때 그 안에서 정렬조건으로 넣는 그 key를 말한다. 
+
+일반적으로는 lambda를 사용해서 비교해보고는 한다. x와 y가 '3'과 같이 str화 되어있는 숫자일 때를 감안한 compare함수(숫자가 str화 되어있을 때 사용하면 좋을 것 같은 함수)
 
 
 ---
