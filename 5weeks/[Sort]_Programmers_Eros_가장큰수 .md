@@ -29,7 +29,7 @@ def solution(numbers):
 
 1. 사전형 비교를 람다를 쓰지 않고 파이썬 함수 cmp_to_key를 쓴 점이 독특하다.
 
-*구글링 후 찾은 cmp_to_key
+*구글링 후 찾은 cmp_to_key 정의
 
 cmp_to_key()란 sort()나 sorted()를 사용할 때 그 안에서 정렬조건으로 넣는 그 key를 말한다. 
 
